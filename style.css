@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=News+Cycle&display=swap');
+
+:root {
+   --color-1: rgb(255, 255, 255);
+   --color-2:#0974b3;
+   --color-3:#666;
+   
+
+   --font: 'News Cycle';
+}
+
+
+
+body {
+    
+    font-family: var(--font);
+   background-color:rgba(255, 252, 252, 0.445);
+   color: var(--color-2);
+   padding: 20px;
+}
+
+h1 {
+    color:#0974b3 ;
+}
+h4{
+    color: #666;
+}
+
+img {
+    width: 200px;
+    float: left;
+    margin-right: 30px;
+}
+
+/* p {
+    
+   background: #eb1d1d;    
+} */
+
+section {
+    max-width: 350px;
+    /* background: var(--color-3); */
+    overflow: hidden;
+    border-radius: 0 0 10px 10px;
+    padding: 3px 0 0 0 ;
+}
+
+.kortele {
+    /* border: 5px solid #0974b3; */
+    border-top:5px solid #666;
+    width:310px ;
+    height: 600px;
+    float: left;
+    margin-left:50px ;
+    padding: 10px ;
+    border-radius: 0 0 10px 10px;
+    background: rgba(255, 255, 255, 0.288);
+    position: relative;
+}
+
+.mygtukas {
+    border:3px solid #0974b3 ;
+    border-radius: 20px 0;
+    height: 40px;
+    text-align: center;
+    background: #0974b3;
+    color: rgba(255, 255, 255, 0.582);
+    padding-top:  10px;
+    margin-top: 10px;
+}
+.mygtukas:hover {
+    background:#065583 ;
+}
+
+.kortele:hover {
+    margin-top: 3px;
+    border-top: 5px solid #0974b3;
+}
+
+.Lupa{
+
+    position: absolute;
+    left: 0px;
+    top: 150px;
+    z-index: 1;
+}
+
+.Lupa {
+    /* border: 5px solid black; */
+    opacity: 0;
+}
+
+.Lupa:hover {
+    opacity: 1;
+}
